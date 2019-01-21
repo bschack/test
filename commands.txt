@@ -18,15 +18,38 @@ open <file name> -> opens file in browser
 
 
 HTML tags:
-<input name="<name>" type="[text, password, radio]" value="<name>" placeholder="placeholder" list="<id of list>">
+<input name="<name>" type="[text, password, radio, number]" value="<name>" placeholder="placeholder" list="<id of list>">
 <datalist id="<id>">
   <option value="v1">
   <option value="v2">
   <option value="v3">
 </datalist>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> -> for @media css selector
 
 CSS:
 <parent> > <child> {
   style: change;
+}
+<tag name>[type=<type>]{
+  style: change;
+}
+<tag name>::before{
+  content: "<some content>";
+}
+<tag name>::selection{
+  style: change;
+}
+<tag name> + <tag name>{ -> adjacent sibling selector
+  style: change;
+}
+@media <type of media>{
+  <selector>{
+    style: change;
+  }
+}
+@media (<differentiation [min-width]>: <size>){
+  <selector>{
+    style: change;
+  }
 }
