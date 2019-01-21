@@ -14,6 +14,7 @@ cd -> change directory
 cd .. -> change directory to previous
 rm -rf <directory> -> removes direcotry
 touch <new file name> -> creates a new file of that name
+open <file name> -> opens file in browser
 
 
 HTML tags:
@@ -23,3 +24,9 @@ HTML tags:
   <option value="v2">
   <option value="v3">
 </datalist>
+
+
+CSS:
+<parent> > <child> {
+  style: change;
+}
