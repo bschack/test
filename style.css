@@ -16,6 +16,7 @@ p::selection {
 
 @media (max-width: 499px) {
   p {
-    color: red; } }
+    color: red;
+    font-family: monospace; } }
 
 /*# sourceMappingURL=style.css.map */
