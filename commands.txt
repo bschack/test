@@ -14,3 +14,12 @@ cd -> change directory
 cd .. -> change directory to previous
 rm -rf <directory> -> removes direcotry
 touch <new file name> -> creates a new file of that name
+
+
+HTML tags:
+<input name="<name>" type="[text, password, radio]" value="<name>" placeholder="placeholder" list="<id of list>">
+<datalist id="<id>">
+  <option value="v1">
+  <option value="v2">
+  <option value="v3">
+</datalist>
