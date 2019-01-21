@@ -15,7 +15,8 @@ cd .. -> change directory to previous
 rm -rf <directory> -> removes direcotry
 touch <new file name> -> creates a new file of that name
 open <file name> -> opens file in browser
-
+sass <file name>.scss <file name>.css
+sass --watch variables.scss:variables.css
 
 HTML tags:
 <input name="<name>" type="[text, password, radio, number]" value="<name>" placeholder="placeholder" list="<id of list>">
@@ -26,6 +27,7 @@ HTML tags:
 </datalist>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> for @media css selector
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 CSS:
 <parent> > <child> {
@@ -52,4 +54,22 @@ CSS:
   <selector>{
     style: change;
   }
+}
+<selector>{
+  display: flex;
+  flex-wrap: wrap;
+}
+<selector>{
+  display: grid;
+  grid-column-gap: <number>;
+  grid-row-gap: <number>;
+  grid-template-columns: <column width> <column width> <column width>;
+}
+
+SCSS [<file name>.scss]:
+variables:
+$<var name>: <value>;
+
+<selector>{
+  style: $<var name>;
 }
