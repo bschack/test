@@ -1,0 +1,16 @@
+Git commands:
+git push -> pushes current file to internet
+git pull -> pulls files from internet
+git clone <url> -> clones repository of url
+git commit -am "<message>" -> adds and commits updated code
+git status -> checks if commit is needed
+git log -> logs all commits
+git branch -> lists all branches
+git branch <new branch name> -> creates new branch
+git checkout <branch name> -> changes branch to named branch
+open <file name> -a <application> -> opens a certain file in an application
+ls -> list files
+cd -> change directory
+cd .. -> change directory to previous
+rm -rf <directory> -> removes direcotry
+touch <new file name> -> creates a new file of that name
