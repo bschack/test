@@ -1,8 +1,8 @@
 $("#click").on("click", run);
 
-function run(){
-  let i = false;
+let i = false;
 
+function run(){
   if(i==false){
   $("body").css({"background-color":"magenta"});
   i = true;
