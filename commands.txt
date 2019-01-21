@@ -73,3 +73,12 @@ $<var name>: <value>;
 <selector>{
   style: $<var name>;
 }
+
+%<message>{
+  style: change;
+  style: change;
+}
+<selector>{
+  @extend %<message>;
+  style: change;
+}
