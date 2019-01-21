@@ -12,3 +12,13 @@ function run(){
     i = false;
   }
 }
+let count;
+function startCount(){
+ count = setTimeout(showPage, 3000);
+}
+
+function showPage(){
+  $("#loader").css({"display":"none"});
+  $("#mainPage").css({"display":"block"});
+  console.log("worked");
+}

@@ -5,11 +5,19 @@
     <meta charset="utf-8">
     <title>Hello world</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader-style.css">
+    <script src="hello.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
   </head>
-  <body>
-    <a href="hello.html">Back to the first page</a>
-    <div class="">
-      This is the second page!
-    </div>
+  <body onload="startCount()">
+
+    <div id="loader"></div>
+
+    <span id="mainPage">
+      <a href="hello.html">Back to the first page</a>
+      <div class="">
+        This is the second page!
+      </div>
+    </span>
   </body>
 </html>
