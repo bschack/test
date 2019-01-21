@@ -12,9 +12,22 @@ function run(){
     i = false;
   }
 }
+<<<<<<< HEAD
 $(".show-alert").on("click", function(){
   $(".alert").css({"visibility":"initial"});
 });
 $("#close").on("click", function(){
   $(".alert").css({"visibility":"hidden"});
 });
+=======
+let count;
+function startCount(){
+ count = setTimeout(showPage, 3000);
+}
+
+function showPage(){
+  $("#loader").css({"display":"none"});
+  $("#mainPage").css({"display":"block"});
+  console.log("worked");
+}
+>>>>>>> features
