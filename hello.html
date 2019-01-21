@@ -3,13 +3,24 @@
   <head>
     <title>Hello World</title>
     <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.3.1.min.js"></script>
+
+      <script src="jquery-3.3.1.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--
+
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    -->
+<!--
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+-->
   </head>
   <body>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+      <button id="close" type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <span class="body">
     <a href="page2.html">Go to the second page</a>
     <div class="div">
       Hello, world! Edit...
@@ -23,6 +34,10 @@
           Multiple files have been changed.
       </p>
     </div>
+    <button class="show-alert">
+      Show Alert
+    </button>
+  </span>
     <script src="hello.js"></script>
   </body>
 </html>

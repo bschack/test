@@ -18,5 +18,14 @@ p::selection {
   p {
     color: red;
     font-family: monospace; } }
+.alert {
+  transition: visibility 2s linear;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  position: fixed;
+  margin-top: 3vh; }
+
+.body {
+  position: absolute; }
 
 /*# sourceMappingURL=style.css.map */

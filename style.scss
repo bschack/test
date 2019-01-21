@@ -25,3 +25,13 @@ p::selection{
     font-family: $font;
   }
 }
+.alert{
+  transition: visibility 2s linear;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  position: fixed;
+  margin-top: 3vh;
+}
+.body{
+  position: absolute;
+}

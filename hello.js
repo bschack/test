@@ -12,3 +12,9 @@ function run(){
     i = false;
   }
 }
+$(".show-alert").on("click", function(){
+  $(".alert").css({"visibility":"initial"});
+});
+$("#close").on("click", function(){
+  $(".alert").css({"visibility":"hidden"});
+});
