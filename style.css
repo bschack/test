@@ -14,4 +14,8 @@ p::selection {
   background-color: darkgray;
   color: white; }
 
+@media (max-width: 500px) {
+  p {
+    color: red; } }
+
 /*# sourceMappingURL=style.css.map */
