@@ -6,4 +6,12 @@ a {
   text-decoration: none;
   color: blue; }
 
+div p {
+  color: black;
+  font-family: monospace; }
+
+p::selection {
+  background-color: darkgray;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */

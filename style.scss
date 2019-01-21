@@ -8,3 +8,11 @@ a{
   text-decoration: none;
   color: $color;
 }
+div p{
+  color: black;
+  font-family: monospace;
+}
+p::selection{
+  background-color: darkgray;
+  color: white;
+}
